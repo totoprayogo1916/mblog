@@ -41,14 +41,14 @@
  * COMPOSER AUTOLOAD
  * --------------------------------------------------------------
  */
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 /*
  * --------------------------------------------------------------
  * DOTENV
  * --------------------------------------------------------------
  */
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->safeLoad();
 
 /*
@@ -112,7 +112,7 @@ switch (ENVIRONMENT)
  * This variable must contain the name of your "system" directory.
  * Set the path if it is not in the same directory as this file.
  */
-	$system_path = 'vendor/codeigniter/framework/system';
+	$system_path = '../vendor/codeigniter/framework/system';
 
 /*
  *---------------------------------------------------------------
@@ -129,7 +129,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = 'application';
+	$application_folder = '../application';
 
 /*
  *---------------------------------------------------------------
