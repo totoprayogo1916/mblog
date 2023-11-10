@@ -5,7 +5,8 @@
 	"type": "project",
 	"require": {
 		"php": ">=5.3.7",
-		"codeigniter/framework": "3.1.13"
+		"codeigniter/framework": "3.1.13",
+		"vlucas/phpdotenv": "^5.5"
 	},
 	"require-dev": {
 		"mikey179/vfsstream": "1.6.*",
