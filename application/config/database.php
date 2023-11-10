@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'blog_db',
+	'hostname' => $_SERVER['database.default.hostname'] ?? 'localhost',
+	'username' => $_SERVER['database.default.username'] ?? 'root',
+	'password' => $_SERVER['database.default.password'] ?? '',
+	'database' => $_SERVER['database.default.database'] ?? 'db_blog',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
