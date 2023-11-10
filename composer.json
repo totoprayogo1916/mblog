@@ -1,17 +1,17 @@
 {
-	"description": "mblog",
 	"name": "totoprayogo1916/mblog",
-	"type": "project",
+	"description": "mblog",
 	"license": "MIT",
+	"type": "project",
 	"require": {
 		"php": ">=5.3.7",
 		"codeigniter/framework": "3.1.13"
 	},
-	"suggest": {
-		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
-	},
 	"require-dev": {
 		"mikey179/vfsstream": "1.1.*",
 		"phpunit/phpunit": "4.* || 5.*"
+	},
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
 	}
 }
