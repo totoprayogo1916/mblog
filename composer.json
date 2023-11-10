@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"require": {
 		"php": ">=5.3.7",
-		"codeigniter/framework": "^3.1"
+		"codeigniter/framework": "3.1.13"
 	},
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
