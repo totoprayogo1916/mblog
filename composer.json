@@ -9,10 +9,17 @@
 		"vlucas/phpdotenv": "^5.5"
 	},
 	"require-dev": {
-		"mikey179/vfsstream": "1.6.*",
-		"phpunit/phpunit": "4.* || 5.*"
+		"codeigniter4/devkit": "^1.1",
+		"mikey179/vfsstream": "1.6.*"
 	},
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"config": {
+		"allow-plugins": {
+			"phpstan/extension-installer": false
+		}
 	}
 }
